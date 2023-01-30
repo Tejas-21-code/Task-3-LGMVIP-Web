@@ -1,0 +1,50 @@
+.element {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.para {
+  margin-left: 350px;
+}
+.in {
+  margin-right: 310px;
+}
+h1 {
+  margin-left: 215px;
+}
+.ele1,
+.ele2 {
+  text-align: left;
+  margin-right: 420px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  margin-right: 308px;
+}
+
+input,
+label {
+  margin-right: 6px;
+}
+
+.s {
+  margin-left: 70px;
+}
+
+button {
+  font-size: 20px;
+  margin-right: 6px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: none;
+  padding: 12px;
+}
+
+p {
+  font-weight: bold;
+  color: rgb(46, 45, 45);
+  font-size: 18px;
+}

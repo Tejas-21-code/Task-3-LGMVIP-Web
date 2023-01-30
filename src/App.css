@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+  background-color: #b0bed9;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.child1,
+.child2 {
+  margin-top: 50px;
+}
+.child2 {
+  margin-top: 30px;
+  margin-left: 190px;
+  height: 445px;
+  width: 600px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding: 15px;
+}
+.top {
+  text-align: center;
+  font-size: 45px;
+  background-color: #787c84;
+  color: aquamarine;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  margin-right: 165px;
+  font-size: 45px;
+}
+
+body {
+  overflow: hidden;
+}
+.child1 {
+  flex: 1;
+  border-right: 5px solid black;
+  max-width: 980px;
+}
+.extra {
+  flex: 1;
+  position: relative;
+  top: 45px;
+}
